@@ -12,103 +12,113 @@
 </head>
 
 <body>
-  <a class="github-fork-ribbon" href="https://github.com/brock8503/the_personal_website" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+  <a class="github-fork-ribbon" href="https://github.com/brock8503/the_personal_website" data-ribbon="Fork me on GitHub" title="Fork me on GitHub" hidden="">Fork me on GitHub</a>
   <input id="toggle" type="checkbox">
   <label class="toggle-container" for="toggle">
     <span class="button button-toggle"></span>
   </label>
   <nav>
     <div data-editable="" class="title">
-      <p>
-        <a class="font-bold" href="https://sammybrenner.com">Sammy Brenner</a>
-      </p>
+
+      <p class="ce-element ce-element--type-text"><a class="font-bold" href="https://sammybrenner.com">Sammy Brenner</a></p>
     </div>
     <div data-editable="" class="nav-menu">
-      <ul>
-        <li>
-          <a href="#home">Home</a>
+
+      <ul class="ce-element ce-element--type-list">
+        <li class="ce-element ce-element--type-list-item">
+          <div class="ce-element ce-element--type-list-item-text"><a href="#home">Home</a></div>
         </li>
-        <li>
-          <a href="#work">Work</a>
+        <li class="ce-element ce-element--type-list-item">
+          <div class="ce-element ce-element--type-list-item-text"><a href="#work">Work</a></div>
         </li>
-        <li>
-          <a href="#about">About</a>
+        <li class="ce-element ce-element--type-list-item">
+          <div class="ce-element ce-element--type-list-item-text"><a href="#about">About</a></div>
         </li>
       </ul>
     </div>
     <div class="outline contact" data-editable="">
-      <p>
-        <a href="mailto:kyle@mcfarland.io">Contact</a>
-      </p>
+
+      <p class="ce-element ce-element--type-text"><a href="mailto:sammybrenner123@gmail.com">Contact</a></p>
     </div>
   </nav>
   <main id="home" class="list-group">
     <section class="hero-container">
       <div class="hero-text">
         <div data-editable="">
-          <h1>
-            Simple and free personal website templates for Github pages
-          </h1>
+
+          <h1 class="ce-element ce-element--type-text">Simple and free personal website templates for Github pages</h1>
         </div>
         <div data-editable="">
-          <blockquote>
-            <i>Give me six hours to chop down a tree and I will spend the first four sharpening the axe.</i>
-          </blockquote>
+
+          <blockquote class="ce-element ce-element--type-text"><i>Give me six hours to chop down a tree and I will spend the first four sharpening the axe.</i></blockquote>
         </div>
         <div data-editable="">
-          <h5>
-            Abraham Lincoln
-          </h5>
+
+          <h5 class="ce-element ce-element--type-text">Abraham Lincoln</h5>
         </div>
       </div>
-      <div data-editable=""><img class="hero-image" src="../images/profile.jpg" width="400" height="600"></div>
+      <div data-editable="">
+        <div class="hero-image ce-element ce-element--type-image" style="background-image:url('../images/profile.jpg');width:400px;height:600px;" data-ce-size="w 400 × h 600"></div>
+      </div>
     </section>
 
-    <section id="about" data-editable="" class="simple-text list-group-item">
-      <div class="handle"></div>
-      <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
-      <p class="subtitle">
-        about
-      </p>
-      <h1>
-        Build your own personal website in minutes
-      </h1>
-      <p>
-        Github pages only supports a few boring templates. What if you could get <b>free</b> awesome personal website templates that looked great to start and allowed you to make changes to them later.
-      </p>
-      <p>
-        <b>The Personal Website</b> lets you customize style and content, and then save all those changes to this Github repository fork.
-      </p>
-      <p>
-        It's a free, simple, and easy CMS to build your personal brand!
-      </p>
-      <p>
-        <a href="https://github.com/brock8503/the_personal_website">Fork this repository</a> to get started.
-      </p>
+    <section id="about" data-editable="" class="simple-text list-group-item draggable" hidden="">
+
+
+
+
+
+
+
+
+      <div class="handle ce-element ce-element--type-static"></div>
+      <div class="remove ce-element ce-element--type-static" onclick="this.closest('section').toggleAttribute('hidden')"></div>
+      <p class="subtitle ce-element ce-element--type-text">about</p>
+      <h1 class="ce-element ce-element--type-text">Build your own personal website in minutes</h1>
+      <p class="ce-element ce-element--type-text">Github pages only supports a few boring templates. What if you could get <b>free</b> awesome personal website templates that looked great to start and allowed you to make changes to them later.</p>
+      <p class="ce-element ce-element--type-text"><b>The Personal Website</b> lets you customize style and content, and then save all those changes to this Github repository fork.</p>
+      <p class="ce-element ce-element--type-text">It's a free, simple, and easy CMS to build your personal brand!</p>
+      <p class="ce-element ce-element--type-text"><a href="https://github.com/brock8503/the_personal_website">Fork this repository</a> to get started.</p>
     </section>
 
-    <section class="logos list-group-item">
+    <section id="
+    articles
+" data-editable="" class="articles list-group-item draggable" draggable="false" style="">
+      <div class="handle ce-element ce-element--type-static"></div>
+      <div class="remove ce-element ce-element--type-static" onclick="this.closest('section').toggleAttribute('hidden')"></div>
+      <p class="subtitle ce-element ce-element--type-text">
+        articles
+      </p>
+      <ul class="ce-element ce-element--type-list">
+        <li class="ce-element ce-element--type-list-item">
+          <div class="ce-element ce-element--type-list-item-text">
+            <div class="ce-element ce-element--type-list-item-text ce-element--focused" contenteditable=""><a draggable="false" href="article4.html"><b>March 19, 2019</b> Example of an article</a></div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="logos list-group-item draggable">
       <div class="handle"></div>
       <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
       <div data-editable="">
-        <ul>
-          <li class="logo facebook">
-            <a href="#home">&#8203;</a>
+        <ul class="ce-element ce-element--type-list">
+          <li class="logo facebook ce-element ce-element--type-list-item">
+            <div class="ce-element ce-element--type-list-item-text"><a href="#home">​</a></div>
           </li>
-          <li class="logo twitter">
-            <a href="#home">&#8203;</a>
+          <li class="logo twitter ce-element ce-element--type-list-item">
+            <div class="ce-element ce-element--type-list-item-text"><a href="#home">​</a></div>
           </li>
-          <li class="logo instagram">
-            <a href="#home">&#8203;</a>
+          <li class="logo instagram ce-element ce-element--type-list-item">
+            <div class="ce-element ce-element--type-list-item-text"><a href="#home">​</a></div>
           </li>
-          <li class="logo github">
-            <a href="#home">&#8203;</a>
+          <li class="logo github ce-element ce-element--type-list-item">
+            <div class="ce-element ce-element--type-list-item-text"><a href="#home">​</a></div>
           </li>
         </ul>
       </div>
     </section>
 
-    <section class="templates list-group-item" hidden="">
+    <section class="templates list-group-item draggable" hidden="">
       <div class="handle"></div>
       <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
       <ul>
@@ -117,7 +127,9 @@
       </ul>
     </section>
 
-    <section class="how-it-works list-group-item" style="color: black;">
+    <section class="how-it-works list-group-item draggable" style="color: black;" id="
+        how it works
+      " hidden="">
       <div class="handle"></div>
       <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
       <p class="subtitle">
@@ -149,53 +161,48 @@
     <!--<section class="gallery"></section>-->
     <!--<section class="three-by-side"></section>-->
     <!--<section class="side-by-side"></section>-->
-    <section id="work" data-editable="" class="articles list-group-item">
-      <div class="handle"></div>
-      <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
-      <p class="subtitle">
-        articles
+
+    <section id="
+    thoughts
+" data-editable="" class="simple-text list-group-item">
+      <div class="handle ce-element ce-element--type-static"></div>
+      <div class="remove ce-element ce-element--type-static" onclick="this.closest('section').toggleAttribute('hidden')"></div>
+      <p class="subtitle ce-element ce-element--type-text">
+        thoughts
       </p>
-      <ul>
-        <li>
-          <a href="article4.html"><b>March 19, 2019</b> Example of an article</a>
-        </li>
-        <li>
-          <a href="article2.html"><b>March 18, 2019</b> Podcast about the personal website</a>
-        </li>
-        <li>
-          <a href="article3.html"><b>March 12, 2019</b> The beginning starts here</a>
-        </li>
-      </ul>
+      <h1 class="ce-element ce-element--type-text">
+        First article
+      </h1>
     </section>
   </main>
   <footer>
     <div data-editable="">
-      <ul>
-        <li>
-          <a href="#home">Home</a>
+      <ul class="ce-element ce-element--type-list">
+        <li class="ce-element ce-element--type-list-item">
+          <div class="ce-element ce-element--type-list-item-text"><a href="#home">Home</a></div>
         </li>
-        <li>
-          <a href="#work">Work</a>
+        <li class="ce-element ce-element--type-list-item">
+          <div class="ce-element ce-element--type-list-item-text"><a href="#work">Work</a></div>
         </li>
-        <li>
-          <a href="#about">About</a>
+        <li class="ce-element ce-element--type-list-item">
+          <div class="ce-element ce-element--type-list-item-text"><a href="#about">About</a></div>
         </li>
       </ul>
     </div>
   </footer>
-  <div class="add-section" hidden="" onclick="addClicked(this)">
-    <img class="add" src="https://cdn.skypack.dev/feather-icons/dist/icons/plus-circle.svg"/>
-    <ul class="types" style="display:none">
+  <div class="add-section" onclick="addClicked(this)" style="display: none;" hidden="">
+    <img class="add" src="https://cdn.skypack.dev/feather-icons/dist/icons/plus-circle.svg" style="display: none;">
+    <ul class="types" style="display: flex;">
       <li onclick="document.querySelector('main').appendChild(htmlToElement(SECTIONS.simple));restartEditor();">
-        <img src="./images/simple-text.svg"/>
+        <img src="./images/simple-text.svg">
         <p><b>Simple section</b></p>
       </li>
       <li onclick="document.querySelector('main').appendChild(htmlToElement(SECTIONS.logos));restartEditor()">
-        <img src="./images/logos.svg" style="padding-bottom: calc(150px - 50px)"/>
+        <img src="./images/logos.svg" style="padding-bottom: calc(150px - 50px)">
         <p><b>Logo section</b></p>
       </li>
       <li onclick="document.querySelector('main').appendChild(htmlToElement(SECTIONS.articles));restartEditor()">
-        <img src="./images/articles.svg" style="padding-bottom: calc(150px - 75px)"/>
+        <img src="./images/articles.svg" style="padding-bottom: calc(150px - 75px)">
         <p><b>Article list section</b></p>
       </li>
     </ul>
@@ -220,4 +227,5 @@
   <script src="./javascripts/editor.js" type="module"></script>
   <script src="./javascripts/modal.js" type="module"></script>
   <script src="./javascripts/addSection.js"></script>
+
 </body>
