@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <a class="github-fork-ribbon" href="https://github.com/brock8503/the_personal_website" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+  <a class="github-fork-ribbon" href="https://github.com/brock8503/the_personal_website" data-ribbon="Fork me on GitHub" title="Fork me on GitHub" hidden="">Fork me on GitHub</a>
   <input id="toggle" type="checkbox">
   <label class="toggle-container" for="toggle">
     <span class="button button-toggle"></span>
@@ -29,16 +29,13 @@
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#work">Work</a>
-        </li>
-        <li>
           <a href="#about">About</a>
         </li>
       </ul>
     </div>
     <div class="outline contact" data-editable="">
       <p>
-        <a href="mailto:kyle@mcfarland.io">Contact</a>
+        <a href="mailto:sammybrenner123@gmail.com">Contact</a>
       </p>
     </div>
   </nav>
@@ -46,25 +43,27 @@
     <section class="hero-container">
       <div class="hero-text">
         <div data-editable="">
-          <h1>
-            Simple and free personal website templates for Github pages
-          </h1>
+          <h2>
+            <b>Senior Inside Sales Manager</b> at <i>Cisco Meraki</i>
+          </h2>
         </div>
         <div data-editable="">
-          <blockquote>
-            <i>Give me six hours to chop down a tree and I will spend the first four sharpening the axe.</i>
-          </blockquote>
+          <p>
+
+          </p>
         </div>
         <div data-editable="">
-          <h5>
-            Abraham Lincoln
-          </h5>
+          <p>
+
+          </p>
         </div>
       </div>
       <div data-editable=""><img class="hero-image" src="../images/profile.jpg" width="400" height="600"></div>
     </section>
 
-    <section id="about" data-editable="" class="simple-text list-group-item">
+    <section id="
+    about
+" data-editable="" class="simple-text list-group-item" hidden="">
       <div class="handle"></div>
       <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
       <p class="subtitle">
@@ -87,7 +86,22 @@
       </p>
     </section>
 
-    <section class="logos list-group-item">
+    <section id="
+    about
+" data-editable="" class="simple-text list-group-item" draggable="false" style="">
+      <div class="handle"></div>
+      <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
+      <p class="subtitle">
+        about
+      </p>
+      <h1>
+        Sammy Brenner
+      </h1>
+      <p>
+        Graduated from the University of Oregon with a BA Degree; Majored in Electronic Media and minored in Communication Studies. She is currently working at Cisco Meraki in San Francisco as a Senior Sales Manager.
+      </p>
+    </section>
+    <section class="logos list-group-item" hidden="">
       <div class="handle"></div>
       <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
       <div data-editable="">
@@ -117,7 +131,9 @@
       </ul>
     </section>
 
-    <section class="how-it-works list-group-item" style="color: black;">
+    <section class="how-it-works list-group-item" style="color: black;" id="
+        how it works
+      " hidden="">
       <div class="handle"></div>
       <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
       <p class="subtitle">
@@ -149,7 +165,9 @@
     <!--<section class="gallery"></section>-->
     <!--<section class="three-by-side"></section>-->
     <!--<section class="side-by-side"></section>-->
-    <section id="work" data-editable="" class="articles list-group-item">
+    <section id="
+    articles
+" data-editable="" class="articles list-group-item" hidden="">
       <div class="handle"></div>
       <div class="remove" onclick="this.closest('section').toggleAttribute('hidden')"></div>
       <p class="subtitle">
@@ -175,27 +193,24 @@
           <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#work">Work</a>
-        </li>
-        <li>
           <a href="#about">About</a>
         </li>
       </ul>
     </div>
   </footer>
-  <div class="add-section" hidden="" onclick="toggleAdd(this)">
-    <img class="add" src="https://cdn.skypack.dev/feather-icons/dist/icons/plus-circle.svg"/>
-    <ul class="types" style="display:none">
+  <div class="add-section" onclick="toggleAdd(this)" style="display: none;" hidden="">
+    <img class="add" src="https://cdn.skypack.dev/feather-icons/dist/icons/plus-circle.svg" style="display: block;">
+    <ul class="types" style="display: none;">
       <li onclick="document.querySelector('main').appendChild(htmlToElement(SECTIONS.simple));restartEditor();">
-        <img src="./images/simple-text.svg"/>
+        <img src="./images/simple-text.svg">
         <p><b>Simple section</b></p>
       </li>
       <li onclick="document.querySelector('main').appendChild(htmlToElement(SECTIONS.logos));restartEditor()">
-        <img src="./images/logos.svg" style="padding-bottom: calc(150px - 50px)"/>
+        <img src="./images/logos.svg" style="padding-bottom: calc(150px - 50px)">
         <p><b>Logo section</b></p>
       </li>
       <li onclick="document.querySelector('main').appendChild(htmlToElement(SECTIONS.articles));restartEditor()">
-        <img src="./images/articles.svg" style="padding-bottom: calc(150px - 75px)"/>
+        <img src="./images/articles.svg" style="padding-bottom: calc(150px - 75px)">
         <p><b>Article list section</b></p>
       </li>
     </ul>
@@ -220,4 +235,5 @@
   <script src="./javascripts/editor.js" type="module"></script>
   <script src="./javascripts/modal.js" type="module"></script>
   <script src="./javascripts/addSection.js"></script>
+
 </body>
